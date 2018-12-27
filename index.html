@@ -12,170 +12,370 @@
 
     <link rel="stylesheet" href="../cs6-simple-recap/node_modules/bootstrap/dist/css/bootstrap.css">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./node_modules/style.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 
-    <title>Exercice bootstrap 1</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+
+        crossorigin="anonymous">
+
+    <title>Exercice Recap</title>
 
 </head>
 
-<body id="body">
-    <header>
+<body>
 
-<!-- nav -->
+    <!-- NavBar debut -->
 
-<nav class="navbar navbar-expand-lg navbar-light fixed-top w-50 mx-auto">
+    <header class="debutheader">
 
-    
+        <section>
 
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
+            <nav class="navbar navbar-expand-lg navbar-white" id="maNav">
 
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="container">
 
-        Menu
+                    <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
 
-      </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
 
-      <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
 
-        <ul class="navbar-nav ml-auto">
+                                <a class="nav-link" href="#about">About</a>
 
-          <li class="nav-item">
+                            </li>
 
-            <a class="nav-link" href="#">About</a>
+                            <li class="nav-item">
 
-          </li>
+                                <a class="nav-link" href="#projects">Projects</a>
 
-          <li class="nav-item">
+                            </li>
 
-            <a class="nav-link" href="#">Projects</a>
+                            <li class="nav-item">
 
-          </li>
+                                <a class="nav-link" href="#signup">Contact</a>
 
-          <li class="nav-item">
+                            </li>
 
-            <a class="nav-link" href="#">Contact</a>
+                        </ul>
 
-          </li>
-
-        </ul>
-
-      </div>
-
-
-
-  </nav>
-
-  
-
-<!-- Header -->
-
-<div class=" d-flex align-item-center mx-auto text-center " id="img-bg">
-
-    <div class="mx-auto text-center h-100 text-secondary  text-center">
-
-        <h1 class="mx-auto text-center mb-3  "  id="m1">Grayscale</h1>
-
-        <h2 class="mx-auto pb-5 text-center  " id="m2">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-
-        <a href="" class="btn text-white px-4 py-3" id="bouton">Get started</a>
-
-    </div>
-
-</div>
-</header>
-<!-- built with bootstrap 4 -->
-
-<section class="about-section text-center " id="pt">
-
-    <div class="container ">
-
-      <div class="row" >
-
-        <div class="col-lg-8 mx-auto "  >
-
-          <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-
-          <p class="text-white-50 pb-5 mb-5">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-
-            <a href="#">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-
-        </div>
-
-      </div>
-
-      <img src="images/ipad.png" class="img-fluid" alt="">
-
-    </div>
-
-  </section>
-
-  <!-- Shoreline -->
-
-  <section id="pt2">
-
-      <div class="container">
-
-          <div class="row pb-5">
-
-              <div class="col-8 px-0 "><img src="bg-masthead.jpg" id="bg1" alt="" ></div>
-
-              <div class="col-4 " id="h4">
-
-                  <h4 class="t1 my-0">Shoreline</h4>
-
-                  <p class="t1">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-
-            </div>
-
-          </div>
-
-          <div class="row">
-
-              <div class="col-6 px-0"><img src="images/demo-image-01.jpg" alt="" id="bg2"> </div>
-
-              <div class="col-6 px-5" id="pt3">
-
-                  <h4 class="text-white">Misty</h4>
-
-                  <p class="text-muted">An example of where you can put an image of a project, or anything else, along with a description.</p>
-
-                  <hr class="mb-0 ml-0 " id="barre1">
+                    </div>
 
                 </div>
 
-          </div>
+            </nav>
 
-          <div class="row">
+        </section>
 
-                  <div class="col-6  " id="pt3">
+        <!-- Header -->
 
-                    <h4 class="text-white pl-5">Mountains</h4>
+        <div class="container d-flex h-75 align-items-center">
 
-                    <p class="text-muted pl-5">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+            <div class="mx-auto text-center">
 
-                    <hr class="ml-5 mb-0  " id="barre2">
+                <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
 
-                  </div>
+                <h2 class="text-white-50 mx-auto mt-2 mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing
 
-                  <div class="col-6 px-0 "><img src="images/demo-image-02.jpg" alt="" id="bg2"> </div>
+                    elit. Illo, eveniet! Harum autem, saepe veniam magni ut iste sed molestia.</h2>
+
+                <a href="#about" class="btn btn-primary">Get Started</a>
 
             </div>
 
-      </div>
+        </div>
+        </header>
 
-      <!-- footer -->
+    <!-- Texte section -->
+
+    <section id="about" class="about-section text-center">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-8 mx-auto">
+
+                    <h2 class="text-white mb-4">Lorem ipsum dolor 4</h2>
+
+                    <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+
+                        officiis sunt excepturi provident repellendus eum voluptatum voluptatibus labore saepe
+
+                        neque, reprehenderit magni quo praesentium!
+
+                        <a href="#">Lorem</a>.</p>
+
+                </div>
+
+            </div>
+
+            <img src="./images/ipad.png" class="img-fluid" alt="">
+
+        </div>
+
+    </section>
+
+    <!-- 2EME SECTION -->
+
+    <section id="projects" class="projects-section bg-light">
+
+        <div class="container">
+
+            <!-- Featured Project Row -->
+
+            <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+
+                <div class="col-xl-8 col-lg-7">
+
+                    <img class="img-fluid mb-3 mb-lg-0" src="./images/bg-masthead.jpg" alt="">
+
+                </div>
+
+                <div class="col-xl-4 col-lg-5">
+
+                    <div class="featured-text text-center text-lg-lef
+                    <h4>Shoreline</h4>
+
+                        <p class="text-black-50 mr-5">Grayscale is open source and MIT licensed. This means you can use
+
+                            it for any project - even commercial projects! Download it, customize it, and publish your
+
+                            website!</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Row misty -->
+
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+
+                <div class="col-lg-6">
+
+                    <img class="img-fluid" src="./images/demo-image-01.jpg" alt="">
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div class="bg-black text-center h-100 project">
+
+                        <div class="d-flex h-100">
+
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+
+                                <h4 class="ml-5 text-white">Misty</h4>
+
+                                <p class="ml-5 mr-5 text-white-50">An example of where you can put an image of a
+
+                                    project, or
+
+                                    anything else, along with a description.</p>
+
+                                <hr class="ml-5 d-none d-lg-block mb-0 ml-0">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Row mountains -->
+
+            <div class="row justify-content-center no-gutters">
+
+                <div class="col-6">
+
+                    <div class="bg-black text-center h-100 project">
+
+                        <div class="d-flex h-100">
+
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+
+                                <h4 class="mr-5 text-white">Mountains</h4>
+
+                                <p class="mr-5 ml-5 text-white-50">Another example of a project with its respective
+
+                                    description. These sections work well responsively as well, try this theme on a
+
+                                    small screen!</p>
+
+                                <hr class="mr-5 d-none d-lg-block mb-0 mr-0">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <img class="img-fluid" src="./images/demo-image-02.jpg" alt="">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- FORMULAIRE -->
+
+    <section id="signup" class="signup-section">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+                    <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+
+                    <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+                    <form class="form-inline d-flex">
+
+                        <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" placeholder="Enter email address...">
+
+                        <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Prise de contact Section -->
+
+    <section class="contactbas bg-black">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4 mb-3 mb-md-0">
+
+                    <div class="card py-4 h-100">
+
+                        <div class="card-body text-center"
+                        <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+
+                            <h4 class="text-uppercase m-0">Address</h4>
+
+                            <hr class="my-4">
+
+                            <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 mb-3 mb-md-0">
+
+                    <div class="card py-4 h-100">
+
+                        <div class="card-body text-center">
+
+                            <i class="fas fa-envelope text-primary mb-2"></i>
+
+                            <h4 class="text-uppercase m-0">Email</h4>
+
+                            <hr class="my-4">
+
+                            <div class="small text-black-50">
+
+                                <a href="#">hello@yourdomain.com</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+
+                    <div class="card py-4 h-100">
+
+                        <div class="card-body text-center">
+
+                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+
+                            <h4 class="text-uppercase m-0">Phone</h4>
+
+                            <hr class="my-4">
+
+                            <div class="small text-black-50">+1 (555) 902-8832</div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="social d-flex justify-content-center">
+
+                <a href="#" class="mx-2">
+
+                    <i class="fab fa-twitter"></i>
+
+                </a>
+
+                <a href="#" class="mx-2">
+
+                    <i class="fab fa-facebook-f"></i>
+
+                </a>
+
+                <a href="#" class="mx-2">
+
+                    <i class="fab fa-github"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- FOOTER -->
+
+    <footer class="p-5 bg-black small text-center text-white-50">
+
+        <div class="container">
+
+            Copyright &copy; Your Website 2018
+
+        </div>
+
+    </footer>
+
+    <script>
+        
 
 
 
-  </section>
 
+    </script>
 
-
-
-
-
+</body>
 
 </html>
-
